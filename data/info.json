@@ -1,1 +1,1 @@
-{"commit-log":"- Fix summary not visible for multi select settings ~brahmkshatriya","status":"success","elapsed-time":10687.574044937,"workflow":{"id":10981941833,"title":"Fix summary not visible for multi select settings"}}
+{"commit-log":"- Biggg Refactor basically made how plugins get loaded ~brahmkshatriya\n- move plugger to plugger/echo ~brahmkshatriya","status":"success","elapsed-time":21221.421489948,"workflow":{"id":11038489570,"title":"Biggg Refactor basically made how plugins get loaded"}}
