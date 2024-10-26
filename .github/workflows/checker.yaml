@@ -57,7 +57,7 @@ jobs:
               if: ${{ env.status == 'success' }}
               with:
                   files: ./archive/*.apk
-                  tag_name: ${{ steps.apk-info.outputs.version-name }}
+                  tag_name: ${{ steps.apk-info.outputs.version-name | split('-')[1] }}
                   name: ${{ env.workflow_name }}
                   body_path: ./data/commit-log.txt
 
